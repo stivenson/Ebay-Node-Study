@@ -2,7 +2,7 @@
  * example ebay API request to Trading:GetOrders
  */
 
-var ebay = require('../index.js');
+var ebay = require('./index.js');
 
 ebay.xmlRequest({
   serviceName : 'Trading',

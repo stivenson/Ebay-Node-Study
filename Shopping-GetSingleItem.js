@@ -2,7 +2,7 @@
  * example ebay API request to Shopping:GetSingleItem
  */
 
-var ebay = require('../index.js');
+var ebay = require('./index.js');
 
 ebay.xmlRequest({
   'serviceName': 'Shopping',

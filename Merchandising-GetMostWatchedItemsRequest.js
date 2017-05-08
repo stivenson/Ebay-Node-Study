@@ -2,7 +2,7 @@
  * example ebay API request to Merchandising:getMostWatchedItems
  */
 
-var ebay = require('../index.js');
+var ebay = require('./index.js');
 
 ebay.xmlRequest({
   'serviceName': 'Merchandising',
