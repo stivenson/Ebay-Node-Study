@@ -27,7 +27,7 @@ var params = {
 ebay.xmlRequest({
     serviceName: 'Finding',
     opType: 'findItemsByKeywords',
-    appId: 'Stivenso-cuembyte-PRD-d08faa0a3-48967901',      // FILL IN YOUR OWN APP KEY, GET ONE HERE: https://publisher.ebaypartnernetwork.com/PublisherToolsAPI
+    appId: 'Stivenso-cuembyte-PRD-d08faa0a3-48967901', 
     params: params,
     parser: ebay.parseResponseJson    // (default)
   },
@@ -40,7 +40,8 @@ ebay.xmlRequest({
     console.log('Found', items.length, 'items');
     
     for (var i = 0; i < items.length; i++) {
-      console.log('- ' + items[i].title);
+      console.log(' - ' + items[i].title);
+      console.log(items[i]);
     }  
   }
 );
