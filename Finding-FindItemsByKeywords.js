@@ -27,7 +27,7 @@ var params = {
 ebay.xmlRequest({
     serviceName: 'Finding',
     opType: 'findItemsByKeywords',
-    appId: 'Stivenso-cuembyte-PRD-d08faa0a3-48967901', 
+    appId: '----', 
     params: params,
     parser: ebay.parseResponseJson    // (default)
   },
