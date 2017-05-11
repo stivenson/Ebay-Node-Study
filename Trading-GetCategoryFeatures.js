@@ -1,5 +1,5 @@
 /**
- * example ebay API request to Trading:GetOrders
+ * example ebay API request to Trading:GetCategoryFeatures
  */
 
 var ebay = require('./index.js');
